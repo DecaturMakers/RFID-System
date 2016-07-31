@@ -17,9 +17,11 @@ class Ui_SQLWindow(object):
         self.validationButton.setGeometry(QtCore.QRect(10, 340, 93, 28))
         self.validationButton.setObjectName("validationButton")
         self.logoutButton = QtWidgets.QPushButton(self.centralwidget)
-        self.logoutButton.setGeometry(QtCore.QRect(110, 340, 93, 28))
+        self.logoutButton.setGeometry(QtCore.QRect(210, 340, 93, 28))
         self.logoutButton.setObjectName("logoutButton")
-
+        self.refreshButton = QtWidgets.QPushButton(self.centralwidget)
+        self.refreshButton.setGeometry(QtCore.QRect(110, 340, 93, 28))
+        self.refreshButton.setObjectName("refreshButton")
         self.retranslateUi(SQLWindow)
         QtCore.QMetaObject.connectSlotsByName(SQLWindow)
 
@@ -28,4 +30,5 @@ class Ui_SQLWindow(object):
         FobberWindow.setWindowTitle(_translate("FobberWindow", "Fobber v0.0.1"))
         self.validationButton.setText(_translate("FobberWindow", "Save Changes"))
         self.logoutButton.setText(_translate("FobberWindow", "Log Out"))
+        self.refreshButton.setText(_translate("FobberWindow", "Refresh"))
 
