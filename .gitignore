@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .idea/
 *.txt
 =======
@@ -91,4 +90,3 @@ ENV/
 
 # Rope project settings
 .ropeproject
->>>>>>> Fobber/master
